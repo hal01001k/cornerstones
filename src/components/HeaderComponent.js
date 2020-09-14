@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState, useEffect} from 'react';
 import {
     Collapse,
     Navbar,
@@ -16,16 +16,24 @@ import {
 
 function Header() {
 
+
+    // useEffect(() => {
+    //     window.onscroll = () => {
+    //         const newScrollHeight = Math.ceil(window.scrollY / 50) * 50;
+    //         if (this.state.currentScrollHeight != newScrollHeight) {
+    //             this.setState({currentScrollHeight: newScrollHeight})
+    //         }
+    //     }
+    // });
+
     const Exa = (props) => {
         const [isOpen, setIsOpen] = useState(false);
-
         const toggle = () => setIsOpen(!isOpen);
-
         return (
             <div>
-                <Navbar color="light" light expand="md">
+                <Navbar id='nb' className="fixed-top" color="light" light expand="md">
                     <NavbarBrand href="/">Cornerstones</NavbarBrand>
-                    <NavbarToggler onClick={toggle} />
+                    <NavbarToggler onClick={toggle}/>
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
@@ -45,7 +53,7 @@ function Header() {
                                     <DropdownItem>
                                         Construction
                                     </DropdownItem>
-                                    <DropdownItem divider />
+                                    <DropdownItem divider/>
                                     <DropdownItem>
                                         Reset
                                     </DropdownItem>
@@ -58,13 +66,11 @@ function Header() {
             </div>
         );
     }
-
-    return(
+    return (
         <div>
-             <Exa/>
+            <Exa/>
         </div>
     )
-
 }
 
 export default Header;

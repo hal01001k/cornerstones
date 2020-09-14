@@ -53,7 +53,7 @@ const Kerosel = (props) => {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img className="d-block w-100 h-40" src={item.src} alt={item.altText} />
+                <img className="d-block img-fluid" src={item.src} alt={item.altText} />
                 <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
             </CarouselItem>
         );
