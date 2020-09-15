@@ -6,14 +6,14 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
+    // NavLink,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
     NavbarText
 } from 'reactstrap';
-
+ import { NavLink } from "react-router-dom";
 function Header() {
 
 
@@ -37,10 +37,10 @@ function Header() {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <NavLink href="/components/">Interior</NavLink>
+                                <NavLink className="nav-link" to='/aboutus'>About Us</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/reactstrap/reactstrap">Architecture</NavLink>
+                                <NavLink className="nav-link" to='#'>Architecture</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
