@@ -60,7 +60,7 @@ function Header() {
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </Nav>
-                        <NavbarText>Call Us</NavbarText>
+                        <NavbarText>Call Us: 8105621284</NavbarText>
                     </Collapse>
                 </Navbar>
             </div>
