@@ -40,7 +40,7 @@ function Header() {
                                 <NavLink className="nav-link" to='/aboutus'>About Us</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to='#'>Architecture</NavLink>
+                                <NavLink className="nav-link" to='/interior'>Interior</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
@@ -48,7 +48,7 @@ function Header() {
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        Properties
+                                        Architecture
                                     </DropdownItem>
                                     <DropdownItem>
                                         Construction
