@@ -71,25 +71,26 @@ function Home() {
                                 type="video/mp4"/>
                         </video>
                     </div>
-                </div>
-                <ParallaxBanner
-                    layers={[
-                    {
-                        image: 'https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-                        amount: 1,
-                    },
-                    {
-                        image: 'https://images.pexels.com/photos/1662159/pexels-photo-1662159.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-                        amount: 0.9,
-                    },
-                    ]}
-                    style={{
-                    height: '500px',
-                        width:'100%'
-                    }}
-                    >
-                <h1>Banner Children</h1>
+                </div></div>
+            <ParallaxBanner
+                layers={[
+                    // {
+                    //     children: (<h5>Project SUBTITLE</h5>),
+                    //     amount: 1,
+                    //
+                    // },
+                    {   children: (<h3 align="center">Project SUBTITLE</h3>),
+                        image: 'https://images.unsplash.com/photo-1568377210220-151e1d7f42c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
+                        amount: 0.7,
+                    }
+                ]}
+                style={{
+                    height: "500px",
+                    width:'100%'
+                }}>
+                <h1 align="center">Banner Children</h1>
             </ParallaxBanner>
+            <div className="container">
                 <row>
                     <h2 align="center">Feature</h2>
                     <p className="text-center">This section includes list of all features</p>
