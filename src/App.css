@@ -6,6 +6,10 @@
 /*  height: 40vmin;*/
 /*  pointer-events: none;*/
 /*}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+
 .carousel-item > img {
   width: 100%;
   height: 820px;
@@ -38,7 +42,7 @@
 }
 
 .pad{
-  padding: 10px 10px 10px 10px;
+  padding-top:500px;
 }
 
 .im-sz{
@@ -49,3 +53,8 @@
   height: 300px;
   background-color: royalblue;
 }
+
+.phont{
+  font-family: 'Capriola', sans-serif;
+}
+

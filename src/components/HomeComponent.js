@@ -2,9 +2,18 @@ import React from 'react';
 import {Card, Button, CardTitle, CardText, CardDeck, CardBody, CardSubtitle} from 'reactstrap';
 import Kerosel from './CarouselComponent'
 import {ParallaxBanner} from "react-scroll-parallax";
+import Box from '@material-ui/core/Box';
+import
+{
+    defaultProps1, defaultProps2,
+    styleObj, styleObj1
+
+} from "./AttComponent";
+import Row from "reactstrap/lib/Row";
 
 
 function Home() {
+
     return (
         <div>
             <Kerosel/>
@@ -23,7 +32,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container">
+            <div className="container phont">
                 <div className="row">
                     <div className="col-12 col-md-4">
                         <video playsInline loop autoPlay muted width="350" height="400">
@@ -33,12 +42,54 @@ function Home() {
                         </video>
                     </div>
                     <div className="col-12 col-md-8">
-                        transparent process
+                        <div className="d-none d-md-block">
+                            <Box display="flex" borderRadius={16} {...defaultProps1}>
+                                <p style={styleObj}>
+                                    <h1>Hello!</h1>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                            </Box>
+                        </div>
+                        <div className="d-block d-sm-none">
+                            <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps2}>
+                                <p style={styleObj1}>
+                                    <h1>Hello!</h1>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                            </Box>
+                        </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12 col-md-8">
-                        Discuss with client
+                        <div className="d-none d-md-block">
+                            <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps1}>
+                                <p style={styleObj}>
+                                    <h1>Hello!</h1>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                            </Box>
+                        </div>
+                        <div className="d-block d-sm-none">
+                            <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps2}>
+                                <p style={styleObj1}>
+                                    <h1>Hello!</h1>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                            </Box>
+                        </div>
                     </div>
                     <div className="col-12 col-md-4">
                         <video playsInline loop autoPlay muted width="350" height="400">
@@ -57,12 +108,54 @@ function Home() {
                         </video>
                     </div>
                     <div className="col-12 col-md-8">
-                        transparent process
+                        <div className="d-none d-md-block">
+                            <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps1}>
+                                <p style={styleObj}>
+                                    <h1>Hello!</h1>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                            </Box>
+                        </div>
+                        <div className="d-block d-sm-none">
+                            <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps2}>
+                                <p style={styleObj1}>
+                                    <h1>Hello!</h1>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                            </Box>
+                        </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12 col-md-8">
-                        Discuss with client
+                        <div className="d-none d-md-block">
+                            <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps1}>
+                                <p style={styleObj}>
+                                    <h1>Hello!</h1>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                            </Box>
+                        </div>
+                        <div className="d-block d-sm-none">
+                            <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps2}>
+                                <p style={styleObj1}>
+                                    <h1>Hello!</h1>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                            </Box>
+                        </div>
                     </div>
                     <div className="col-12 col-md-4">
                         <video playsInline loop autoPlay muted width="350" height="400">
@@ -71,30 +164,29 @@ function Home() {
                                 type="video/mp4"/>
                         </video>
                     </div>
-                </div></div>
+                </div>
+            </div>
             <ParallaxBanner
                 layers={[
-                    // {
-                    //     children: (<h5>Project SUBTITLE</h5>),
-                    //     amount: 1,
-                    //
-                    // },
-                    {   children: (<h3 align="center">Project SUBTITLE</h3>),
+                    {
+                        children: (<h1 align="center" className="pad">SECTION</h1>),
                         image: 'https://images.unsplash.com/photo-1568377210220-151e1d7f42c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
-                        amount: 0.7,
+                        amount: 0.6,
                     }
                 ]}
                 style={{
-                    height: "500px",
-                    width:'100%'
+                    height: "450px",
+                    width: '100%',
+
                 }}>
-                <h1 align="center">Banner Children</h1>
             </ParallaxBanner>
             <div className="container">
-                <row>
-                    <h2 align="center">Feature</h2>
-                    <p className="text-center">This section includes list of all features</p>
-                </row>
+                <div className="row">
+                    <p>
+                    <h2>Feature</h2>
+                    This section includes list of all features
+                    </p>
+                </div>
                 <div className="row ">
                     <CardDeck>
                         <Card>

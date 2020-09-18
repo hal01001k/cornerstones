@@ -1,6 +1,5 @@
 import React from 'react';
 import Jumbotron from "reactstrap/lib/Jumbotron";
-import Media from "reactstrap/lib/Media";
 import {Parallax} from 'react-scroll-parallax';
 import Card from "reactstrap/lib/Card";
 import CardBody from "reactstrap/lib/CardBody";
