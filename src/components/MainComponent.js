@@ -5,6 +5,7 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import About from "./AboutComponent";
 import Interior from "./InteriorComponent";
+import Propertise from "./PropertiseComponent"
 class Main extends Component{
 
         render() {
@@ -20,6 +21,7 @@ class Main extends Component{
                         <Route path="/home" component={ HomePage } />
                         <Route path ='/aboutus' component={ About }/>
                         <Route path ='/interior' component={ Interior }/>
+                        <Route path ='/propertise' component={ Propertise }/>
                         <Redirect to="/home" />
                     </Switch>
                     <Footer/>

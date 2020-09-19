@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import {
     Collapse,
     Navbar,
@@ -17,14 +17,6 @@ import {
 function Header() {
 
 
-    // useEffect(() => {
-    //     window.onscroll = () => {
-    //         const newScrollHeight = Math.ceil(window.scrollY / 50) * 50;
-    //         if (this.state.currentScrollHeight != newScrollHeight) {
-    //             this.setState({currentScrollHeight: newScrollHeight})
-    //         }
-    //     }
-    // });
 
     const Exa = (props) => {
         const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +43,7 @@ function Header() {
                                         Architecture
                                     </DropdownItem>
                                     <DropdownItem>
-                                        Construction
+                                        <NavLink className="nav-link" to='/propertise'>Propertise</NavLink>
                                     </DropdownItem>
                                     <DropdownItem divider/>
                                     <DropdownItem>

@@ -6,33 +6,39 @@ import Box from '@material-ui/core/Box';
 import
 {
     defaultProps1, defaultProps2,
-    styleObj, styleObj1
+    styleObj, styleObj1,
+    Ig
 
 } from "./AttComponent";
-import Row from "reactstrap/lib/Row";
+import HorizontalLabelPositionBelowStepper from "./Steps"
 
 
 function Home() {
-
     return (
         <div>
             <Kerosel/>
             <div className="section">
                 <div className="container">
-                    <div className="row">
+                    <div className="row" style={{ paddingTop:'75px'}}>
                         <div className="col-12 col-md-4">
+                            <img style={ Ig } src="icons/Done.svg"/>
                             <p>We find suitable interior for your home.</p>
                         </div>
                         <div className="col-12 col-md-4">
+                            <img style={ Ig } src="icons/Waiting.svg"/>
                             <p>We find suitable architecture for your home.</p>
                         </div>
                         <div className="col-12 col-md-4">
+                            <img style={ Ig } src="icons/Success.svg"/>
                             <p>We find suitable property for your home.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="container phont">
+<div className="container"><HorizontalLabelPositionBelowStepper/></div>
+
+
+            <div className="container phont" style={{paddingTop:'50px'}}>
                 <div className="row">
                     <div className="col-12 col-md-4">
                         <video playsInline loop autoPlay muted width="350" height="400">

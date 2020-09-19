@@ -31,3 +31,9 @@ export const styleObj1 = {
     paddingLeft:"20px",
     paddingRight:"20px",
 }
+export const Ig = {
+    width: "100px",
+    height:"100px",
+    borderColor: 'text.primary',
+}
+
