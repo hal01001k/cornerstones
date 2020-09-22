@@ -1,6 +1,6 @@
 import React from 'react';
  export const defaultProps1 = {
-    bgcolor: 'background.paper',
+    bgcolor: '#E8CD6A',
     borderColor: 'text.primary',
     m: 1,
     border: 1,

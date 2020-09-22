@@ -19,26 +19,29 @@ function Home() {
             <Kerosel/>
             <div className="section">
                 <div className="container">
-                    <div className="row" style={{ paddingTop:'75px'}}>
+                    <div className="row" style={{paddingTop: '75px'}}>
                         <div className="col-12 col-md-4">
-                            <img style={ Ig } src="icons/Done.svg"/>
+                            <img style={Ig} src="icons/Done.svg"/>
                             <p>We find suitable interior for your home.</p>
                         </div>
                         <div className="col-12 col-md-4">
-                            <img style={ Ig } src="icons/Waiting.svg"/>
+                            <img style={Ig} src="icons/Waiting.svg"/>
                             <p>We find suitable architecture for your home.</p>
                         </div>
                         <div className="col-12 col-md-4">
-                            <img style={ Ig } src="icons/Success.svg"/>
+                            <img style={Ig} src="icons/Success.svg"/>
                             <p>We find suitable property for your home.</p>
                         </div>
                     </div>
                 </div>
             </div>
-<div className="container"><HorizontalLabelPositionBelowStepper/></div>
-
-
-            <div className="container phont" style={{paddingTop:'50px'}}>
+            <div className="container" style={{paddingTop:'50px'}}>
+              <h1>How it's done?</h1>
+            </div>
+            <div className="container" style={{paddingTop:'50px'}}>
+                <HorizontalLabelPositionBelowStepper/>
+            </div>
+            <div className="container phont" style={{paddingTop: '50px'}}>
                 <div className="row">
                     <div className="col-12 col-md-4">
                         <video playsInline loop autoPlay muted width="350" height="400">
@@ -189,8 +192,8 @@ function Home() {
             <div className="container">
                 <div className="row">
                     <p>
-                    <h2>Feature</h2>
-                    This section includes list of all features
+                        <h2>Feature</h2>
+                        This section includes list of all features
                     </p>
                 </div>
                 <div className="row ">
