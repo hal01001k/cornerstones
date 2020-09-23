@@ -16,14 +16,12 @@ import {
  import { NavLink } from "react-router-dom";
 function Header() {
 
-
-
     const Exa = (props) => {
         const [isOpen, setIsOpen] = useState(false);
         const toggle = () => setIsOpen(!isOpen);
         return (
             <div>
-                <Navbar className="fixed-top"  light expand="md">
+                <Navbar className="nb fixed-top"  light expand="md">
                     <NavbarBrand href="/">Cornerstones</NavbarBrand>
                     <NavbarToggler onClick={toggle}/>
                     <Collapse isOpen={isOpen} navbar>

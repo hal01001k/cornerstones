@@ -38,7 +38,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="container" style={{paddingTop:'50px'}}>
+            <div className="container phont" style={{paddingTop:'50px'}}>
               <h1>How it's done?</h1>
             </div>
             <div className="container" style={{paddingTop:'50px'}}>
@@ -199,7 +199,7 @@ function Home() {
                         This section includes list of all features
                     </p>
                 </div>
-                <div className="container">
+                <div >
                     <CardDeck>
                         <Card>
                             <CardBody>

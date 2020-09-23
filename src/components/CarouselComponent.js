@@ -9,17 +9,17 @@ import {
 
 const items = [
     {
-        src: 'https://images.pexels.com/photos/2138126/pexels-photo-2138126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        src: 'https://images.pexels.com/photos/532079/pexels-photo-532079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
         altText: 'Slide 1',
         caption: 'Slide 1'
     },
     {
-        src:'https://images.pexels.com/photos/4509092/pexels-photo-4509092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        src:'https://images.pexels.com/photos/383568/pexels-photo-383568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
         altText: 'Slide 2',
         caption: 'Slide 2'
     },
     {
-        src: 'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        src: 'https://images.pexels.com/photos/1029614/pexels-photo-1029614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
         altText: 'Slide 3',
         caption: 'Slide 3'
     }
