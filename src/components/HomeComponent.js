@@ -18,19 +18,22 @@ function Home() {
         <div>
             <Kerosel/>
             <div className="section">
-                <div className="container">
+                <div className="container d-none d-md-block">
                     <div className="row" style={{paddingTop: '75px'}}>
                         <div className="col-12 col-md-4">
                             <img style={Ig} src="icons/Done.svg"/>
-                            <p>We find suitable interior for your home.</p>
+                            <p>We find suitable interior for your home.
+                               All our services are approved and well maintained.</p>
                         </div>
                         <div className="col-12 col-md-4">
                             <img style={Ig} src="icons/Waiting.svg"/>
-                            <p>We find suitable architecture for your home.</p>
+                            <p>We find suitable architecture for your home. We
+                            finish our services in time with every step.</p>
                         </div>
                         <div className="col-12 col-md-4">
                             <img style={Ig} src="icons/Success.svg"/>
-                            <p>We find suitable property for your home.</p>
+                            <p>We find suitable property for your home. we Provide professional and
+                               world class service.</p>
                         </div>
                     </div>
                 </div>
@@ -196,7 +199,7 @@ function Home() {
                         This section includes list of all features
                     </p>
                 </div>
-                <div className="row ">
+                <div className="container">
                     <CardDeck>
                         <Card>
                             <CardBody>

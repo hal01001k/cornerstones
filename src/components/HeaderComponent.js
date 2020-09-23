@@ -23,7 +23,7 @@ function Header() {
         const toggle = () => setIsOpen(!isOpen);
         return (
             <div>
-                <Navbar id='nb' className="fixed-top" color="light" light expand="md">
+                <Navbar className="fixed-top"  light expand="md">
                     <NavbarBrand href="/">Cornerstones</NavbarBrand>
                     <NavbarToggler onClick={toggle}/>
                     <Collapse isOpen={isOpen} navbar>

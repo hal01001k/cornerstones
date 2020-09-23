@@ -1,14 +1,14 @@
 import React from 'react';
  export const defaultProps1 = {
-    bgcolor: '#E8CD6A',
-    borderColor: 'text.primary',
+    bgcolor: '#fdffb6',
+    borderColor: '#fdffb6',
     m: 1,
     border: 1,
     style: { width: '40rem', height: '22rem' },
 };
  export const defaultProps2 = {
-    bgcolor: 'background.paper',
-    borderColor: 'text.primary',
+    bgcolor: '#fdffb6',
+    borderColor: '#fdffb6',
     m: 1,
     border: 1,
     style: { width: '18rem', height: '18rem' },
@@ -16,7 +16,7 @@ import React from 'react';
 
  export const styleObj = {
      fontSize: 20,
-     color: "#4a54f1",
+     color: "text.primary",
      textAlign: "left",
      paddingTop: "40px",
      paddingLeft:"20px",
@@ -25,7 +25,7 @@ import React from 'react';
 
 export const styleObj1 = {
     fontSize: 14,
-    color: "#4a54f1",
+    color: "text.primary",
     textAlign: "left",
     paddingTop: "40px",
     paddingLeft:"20px",

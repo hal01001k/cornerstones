@@ -27,7 +27,7 @@
 }
 
 .footer{
-  background-color: #D1C4E9;
+  background-color: #dfe8fc;
   margin:0px auto;
   padding: 20px 0px 20px 0px;
 }
@@ -42,10 +42,13 @@
 }
 .section{
   height: 350px;
-  background-color: #DDE5F8;
+  background-color: #dfe8fc;
 }
 
 .phont{
   font-family: 'Capriola', sans-serif;
 }
 
+.nb{
+  background-color: #4c5aec;
+}
