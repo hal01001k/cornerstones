@@ -178,20 +178,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <ParallaxBanner
-                layers={[
-                    {
-                        children: (<h1 align="center" className="pad">SECTION</h1>),
-                        image: 'https://images.unsplash.com/photo-1568377210220-151e1d7f42c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
-                        amount: 0.6,
-                    }
-                ]}
-                style={{
-                    height: "450px",
-                    width: '100%',
 
-                }}>
-            </ParallaxBanner>
             <div className="container">
                 <div className="row">
                     <p>
@@ -200,33 +187,32 @@ function Home() {
                     </p>
                 </div>
                 <div >
-                    <CardDeck>
+                    <CardDeck className="phont">
                         <Card>
                             <CardBody>
-                                <CardTitle>Card title</CardTitle>
-                                <CardSubtitle>Card subtitle</CardSubtitle>
+                                <CardTitle>Interior</CardTitle>
+                                <CardSubtitle>Choose from lots</CardSubtitle>
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to
                                     additional content. This content is a little bit longer.</CardText>
-                                <Button>Button</Button>
+                                <Button color='primary'>Interior</Button>
                             </CardBody>
                         </Card>
                         <Card>
                             <CardBody>
-                                <CardTitle>Card title</CardTitle>
+                                <CardTitle>Architecture</CardTitle>
                                 <CardSubtitle>Card subtitle</CardSubtitle>
                                 <CardText>This card has supporting text below as a natural lead-in to additional
                                     content.</CardText>
-                                <Button>Button</Button>
+                                <Button color='primary'>Architecture</Button>
                             </CardBody>
                         </Card>
                         <Card>
                             <CardBody>
-                                <CardTitle>Card title</CardTitle>
+                                <CardTitle>Property</CardTitle>
                                 <CardSubtitle>Card subtitle</CardSubtitle>
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This card has even longer content than the first to show that
-                                    equal height action.</CardText>
-                                <Button>Button</Button>
+                                    additional content.</CardText>
+                                <Button color='primary'>Propertise</Button>
                             </CardBody>
                         </Card>
                     </CardDeck>
@@ -237,3 +223,19 @@ function Home() {
 }
 
 export default Home;
+
+
+// <ParallaxBanner
+//     layers={[
+//         {
+//             children: (<h1 align="center" className="pad">SECTION</h1>),
+//             image: 'https://images.unsplash.com/photo-1568377210220-151e1d7f42c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
+//             amount: 0.6,
+//         }
+//     ]}
+//     style={{
+//         height: "450px",
+//         width: '100%',
+//
+//     }}>
+// </ParallaxBanner>
