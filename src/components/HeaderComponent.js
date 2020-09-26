@@ -30,7 +30,7 @@ function Header() {
                                 <NavLink className="nav-link" to='/aboutus'>About Us</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to='/interior'>Interior</NavLink>
+                                <NavLink className="nav-link" to='/propertise'>Property</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
@@ -41,7 +41,7 @@ function Header() {
                                         Architecture
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <NavLink className="nav-link" to='/propertise'>Propertise</NavLink>
+                                        <NavLink className="nav-link" to='/interior'>Interior</NavLink>
                                     </DropdownItem>
                                     <DropdownItem divider/>
                                     <DropdownItem>

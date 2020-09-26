@@ -34,7 +34,7 @@ export const styleObj1 = {
 export const Ig = {
     width: "100px",
     height:"100px",
-    borderColor: 'text.primary',
+    paddingBottom:"10px",
 }
 
 

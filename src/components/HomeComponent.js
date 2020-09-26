@@ -17,7 +17,7 @@ function Home() {
     return (
         <div>
             <Kerosel/>
-            <div className="section">
+            <div className="section phont">
                 <div className="container d-none d-md-block">
                     <div className="row" style={{paddingTop: '75px'}}>
                         <div className="col-12 col-md-4">
@@ -187,7 +187,7 @@ function Home() {
                     </p>
                 </div>
                 <div >
-                    <CardDeck className="phont">
+                    <CardDeck className="phont" style={{paddingBottom:"20px"}}>
                         <Card>
                             <CardBody>
                                 <CardTitle>Interior</CardTitle>
