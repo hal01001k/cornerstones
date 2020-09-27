@@ -69,6 +69,43 @@ function About() {
                     To be one of the biggest triune company for the upcoming foreign investments in the country.</p>
             <hr stylr={{paddingTop:'18px'}}/>
             </div>
+            <div>
+                <section className="py-5">
+                    <div className="container text-center">
+                        <h2>The Pipers</h2>
+                        <p className="mb-5">We are the guys that made this whole thing possible</p>
+                        <div className="row">
+                            <div className="col-md-4 mb-4">
+                                <img className="mb-3 rounded-circle"
+                                     src="placeholder/pictures/bg_circle.svg?primary=009688" height="120" alt=""/>
+                                    <h5 className="mb-0">Richard Hendricks</h5>
+                                    <small>CEO</small>
+                                    <p className="my-4 text-muted"> When I'm not obsessively stressing about the fate of
+                                        Pied Piper, I sometimes give lectures to school kids. Spend most of my time
+                                        coding.</p>
+                            </div>
+                            <div className="col-md-4 mb-4">
+                                <img className="mb-3 rounded-circle"
+                                     src="placeholder/pictures/bg_circle.svg?primary=009688" height="120" alt=""/>
+                                    <h5 className="mb-0">Dinesh Chugtai</h5>
+                                    <small>CTO</small>
+                                    <p className="my-4 text-muted">I am the absolute best programmer at Pied Piper
+                                        (especially better than Gilfoyle). My genius shines and guides the Pied Piper
+                                        team.</p>
+                            </div>
+                            <div className="col-md-4 mb-4">
+                                <img className="mb-3 rounded-circle"
+                                     src="placeholder/pictures/bg_circle.svg?primary=009688" height="120" alt=""/>
+                                    <h5 className="mb-0">Bertram Gilfoyle</h5>
+                                    <small>Chief Systems Architect</small>
+                                    <p className="my-4 text-muted">I work on Pied Piper only for the advanced
+                                        technology. I don't really like most people I work with, but they need me to put
+                                        out their fires, so&nbsp;I&nbsp;stay.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
             <div className="container">
                 <text style ={{ fontSize:30}}>Head Office</text>
                 <p>Always avialable contact us at any time. we are more then happy to help.</p>
