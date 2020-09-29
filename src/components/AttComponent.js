@@ -1,4 +1,4 @@
-import React from 'react';
+
  export const defaultProps1 = {
     bgcolor: '#fdffb6',
     borderColor: '#fdffb6',

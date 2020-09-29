@@ -1,7 +1,6 @@
 import React from 'react';
 import {Card, Button, CardTitle, CardText, CardDeck, CardBody, CardSubtitle} from 'reactstrap';
 import Kerosel from './CarouselComponent'
-import {ParallaxBanner} from "react-scroll-parallax";
 import Box from '@material-ui/core/Box';
 import
 {
@@ -21,17 +20,17 @@ function Home() {
                 <div className="container d-none d-md-block">
                     <div className="row" style={{paddingTop: '75px'}}>
                         <div className="col-12 col-md-4">
-                            <img style={Ig} src="icons/Done.svg"/>
+                            <img style={Ig} src="icons/Done.svg" alt="Done"/>
                             <p>We find suitable interior for your home.
                                All our services are approved and well maintained.</p>
                         </div>
                         <div className="col-12 col-md-4">
-                            <img style={Ig} src="icons/Waiting.svg"/>
+                            <img style={Ig} src="icons/Waiting.svg" alt="wait"/>
                             <p>We find suitable architecture for your home. We
                             finish our services in time with every step.</p>
                         </div>
                         <div className="col-12 col-md-4">
-                            <img style={Ig} src="icons/Success.svg"/>
+                            <img style={Ig} src="icons/Success.svg" alt="Success"/>
                             <p>We find suitable property for your home. we Provide professional and
                                world class service.</p>
                         </div>
@@ -112,7 +111,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-4" >
                         <video playsInline loop autoPlay muted width="350" height="400">
                             <source
                                 src="https://global-uploads.webflow.com/5bcb46130508ef456a7b2930/5d06154c6a9360b7a49538b6_drawkit-grape-pack-illustration-8-transcode.mp4"
@@ -216,6 +215,33 @@ function Home() {
                             </CardBody>
                         </Card>
                     </CardDeck>
+                    <section className="py-5">
+                        <div className="container">
+                            <h2 className="mb-5 text-center">Some of our awesome features</h2>
+                            <div className="row">
+                                <div className="col-md-3 mb-4">
+                                    <h5>Decentralized</h5>
+                                    <p>Your data is stored in many places at once. Awesome, right?</p>
+                                    <a href="#" role="button">Read more</a>
+                                </div>
+                                <div className="col-md-3 mb-4">
+                                    <h5>Secure</h5>
+                                    <p>Nobody will be able to use your data without your consent.</p>
+                                    <a href="#" role="button">Read more</a>
+                                </div>
+                                <div className="col-md-3 mb-4">
+                                    <h5>Private</h5>
+                                    <p>Your online activity is only yours to know. Always.</p>
+                                    <a href="#" role="button">Read more</a>
+                                </div>
+                                <div className="col-md-3 mb-4">
+                                    <h5>Speed</h5>
+                                    <p>Unimaginable transfer speed thanks to middle-out compression.</p>
+                                    <a href="#" role="button">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>

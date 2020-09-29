@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from "reactstrap/lib/Jumbotron";
 import {Parallax} from 'react-scroll-parallax';
 import Card from "reactstrap/lib/Card";
 import CardBody from "reactstrap/lib/CardBody";
@@ -12,7 +11,7 @@ function About() {
 
     const ParallaxImage = () => (
         <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">
-            <img src="logoM.png"/>
+            <img src="logoM.png" alt="Logo"/>
         </Parallax>
     );
 
@@ -37,7 +36,7 @@ function About() {
                         </p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <img className="img-fluid" src="undraw/team.svg"/>
+                        <img className="img-fluid" src="undraw/team.svg" alt="team"/>
                     </div>
                 </div>
 
@@ -77,7 +76,7 @@ function About() {
                         <div className="row">
                             <div className="col-md-4 mb-4">
                                 <img className="mb-3 rounded-circle"
-                                     src="placeholder/pictures/bg_circle.svg?primary=009688" height="120" alt=""/>
+                                     src="undraw/design_components.svg" height="120" alt=""/>
                                     <h5 className="mb-0">Richard Hendricks</h5>
                                     <small>CEO</small>
                                     <p className="my-4 text-muted"> When I'm not obsessively stressing about the fate of
@@ -86,7 +85,7 @@ function About() {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <img className="mb-3 rounded-circle"
-                                     src="placeholder/pictures/bg_circle.svg?primary=009688" height="120" alt=""/>
+                                     src="undraw/personal_finance.svg" height="120" alt=""/>
                                     <h5 className="mb-0">Dinesh Chugtai</h5>
                                     <small>CTO</small>
                                     <p className="my-4 text-muted">I am the absolute best programmer at Pied Piper
@@ -95,7 +94,7 @@ function About() {
                             </div>
                             <div className="col-md-4 mb-4">
                                 <img className="mb-3 rounded-circle"
-                                     src="placeholder/pictures/bg_circle.svg?primary=009688" height="120" alt=""/>
+                                     src="undraw/respond.svg" height="120" alt=""/>
                                     <h5 className="mb-0">Bertram Gilfoyle</h5>
                                     <small>Chief Systems Architect</small>
                                     <p className="my-4 text-muted">I work on Pied Piper only for the advanced
@@ -111,7 +110,7 @@ function About() {
                 <p>Always avialable contact us at any time. we are more then happy to help.</p>
             <div className="row">
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="undraw/map.svg"/>
+                    <img className="img-fluid" src="undraw/map.svg" alt="map"/>
                 </div>
                 <div className="col-12 col-md-6">
                     <Card>
