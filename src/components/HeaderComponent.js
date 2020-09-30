@@ -32,6 +32,9 @@ function Header() {
                             <NavItem>
                                 <NavLink className="nav-link" to='/propertise'>Property</NavLink>
                             </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to='/interior'>Interior</NavLink>
+                            </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
                                     Services
@@ -41,16 +44,12 @@ function Header() {
                                         Architecture
                                     </DropdownItem>
                                     <DropdownItem>
-                                        <NavLink className="nav-link" to='/interior'>Interior</NavLink>
-                                    </DropdownItem>
-                                    <DropdownItem divider/>
-                                    <DropdownItem>
                                         Reset
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </Nav>
-                        <NavbarText>Call Us: 8105621284</NavbarText>
+                        <NavbarText> Call Us: 8105621284</NavbarText>
                     </Collapse>
                 </Navbar>
             </div>

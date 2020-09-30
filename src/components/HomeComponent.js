@@ -36,8 +36,18 @@ function Home() {
                         </div>
                     </div>
                 </div>
+                <div className="container d-block d-sm-none">
+                    <section className="py-5">
+                        <div className="container text-center">
+                            <strong>The New Internet</strong>
+                            <h5 className="display-5 my-5">We've built a decentralized internet where information is
+                                totally free</h5>
+                            <a className="btn btn-primary btn-raised mt-2" href="#">Read more</a>
+                        </div>
+                    </section>
+                </div>
             </div>
-            <div className="container phont" style={{paddingTop:'50px'}}>
+            <div className="container phont" style={{ paddingTop:'50px' }}>
               <h1>How it's done?</h1>
             </div>
             <div className="container" style={{paddingTop:'50px'}}>
@@ -211,26 +221,40 @@ function Home() {
                                 <CardSubtitle>Card subtitle</CardSubtitle>
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to
                                     additional content.</CardText>
-                                <Button color='primary'>Propertise</Button>
+                                <Button color='primary'>Properties</Button>
                             </CardBody>
                         </Card>
                     </CardDeck>
                     <section className="py-5">
+                        <div className="container text-center">
+                            <div className="card">
+                                <img className="card-img" src="https://images.pexels.com/photos/3609112/pexels-photo-3609112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
+                                    <div
+                                        className="card-img-overlay d-flex justify-content-center align-items-center flex-column">
+                                        <h3 className="card-title">Future of the Internet</h3>
+                                        <p className="card-text">Decentralized, secure, private. The PiperNet is on it's
+                                            way to revolutionize every smartphone, PC, and smart-fridge near you.</p>
+                                        <a className="btn btn-primary btn-raised" href="/interior">Join the Revolution!</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section className="py-5">
                         <div className="container">
-                            <h2 className="mb-5 text-center">Some of our awesome features</h2>
+                            <h2 className="mb-5 text-center">Some of our Interior features</h2>
                             <div className="row">
                                 <div className="col-md-3 mb-4">
-                                    <h5>Decentralized</h5>
+                                    <h5>Woodwork</h5>
                                     <p>Your data is stored in many places at once. Awesome, right?</p>
                                     <a href="#" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
-                                    <h5>Secure</h5>
+                                    <h5>Wallpapers</h5>
                                     <p>Nobody will be able to use your data without your consent.</p>
                                     <a href="#" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
-                                    <h5>Private</h5>
+                                    <h5></h5>
                                     <p>Your online activity is only yours to know. Always.</p>
                                     <a href="#" role="button">Read more</a>
                                 </div>
@@ -249,19 +273,3 @@ function Home() {
 }
 
 export default Home;
-
-
-// <ParallaxBanner
-//     layers={[
-//         {
-//             children: (<h1 align="center" className="pad">SECTION</h1>),
-//             image: 'https://images.unsplash.com/photo-1568377210220-151e1d7f42c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
-//             amount: 0.6,
-//         }
-//     ]}
-//     style={{
-//         height: "450px",
-//         width: '100%',
-//
-//     }}>
-// </ParallaxBanner>

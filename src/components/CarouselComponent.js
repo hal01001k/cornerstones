@@ -51,8 +51,7 @@ const Kerosel = (props) => {
             <CarouselItem
                 onExiting={() => setAnimating(true)}
                 onExited={() => setAnimating(false)}
-                key={item.src}
-            >
+                key={item.src}>
                 <img className="d-block contain img-fluid" src={item.src} alt={item.altText} />
                 <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
             </CarouselItem>
@@ -60,11 +59,7 @@ const Kerosel = (props) => {
     });
 
     return (
-        <Carousel
-            activeIndex={activeIndex}
-            next={next}
-            previous={previous}
-        >
+        <Carousel activeIndex={activeIndex} next={next} previous={previous} >
             <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
             {slides}
             <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
