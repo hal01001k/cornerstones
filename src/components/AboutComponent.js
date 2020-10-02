@@ -71,14 +71,14 @@ function About() {
             <div>
                 <section className="py-5">
                     <div className="container text-center">
-                        <h2>The Pipers</h2>
-                        <p className="mb-5">We are the guys that made this whole thing possible</p>
+                        <h2>Other Perks</h2>
+                        <p className="mb-5">Extra reason to help you.</p>
                         <div className="row">
                             <div className="col-md-4 mb-4">
                                 <img className="mb-3 rounded-circle"
                                      src="undraw/design_components.svg" height="120" alt=""/>
-                                    <h5 className="mb-0">Richard Hendricks</h5>
-                                    <small>CEO</small>
+                                    <h5 className="mb-0">Optimized</h5>
+                                    <small>Data</small>
                                     <p className="my-4 text-muted"> When I'm not obsessively stressing about the fate of
                                         Pied Piper, I sometimes give lectures to school kids. Spend most of my time
                                         coding.</p>
@@ -86,8 +86,8 @@ function About() {
                             <div className="col-md-4 mb-4">
                                 <img className="mb-3 rounded-circle"
                                      src="undraw/personal_finance.svg" height="120" alt=""/>
-                                    <h5 className="mb-0">Dinesh Chugtai</h5>
-                                    <small>CTO</small>
+                                    <h5 className="mb-0">Money Saver</h5>
+                                    <small>keeps your pocket full</small>
                                     <p className="my-4 text-muted">I am the absolute best programmer at Pied Piper
                                         (especially better than Gilfoyle). My genius shines and guides the Pied Piper
                                         team.</p>
@@ -95,8 +95,8 @@ function About() {
                             <div className="col-md-4 mb-4">
                                 <img className="mb-3 rounded-circle"
                                      src="undraw/respond.svg" height="120" alt=""/>
-                                    <h5 className="mb-0">Bertram Gilfoyle</h5>
-                                    <small>Chief Systems Architect</small>
+                                    <h5 className="mb-0">Well Explained</h5>
+                                    <small>System's Architect</small>
                                     <p className="my-4 text-muted">I work on Pied Piper only for the advanced
                                         technology. I don't really like most people I work with, but they need me to put
                                         out their fires, so&nbsp;I&nbsp;stay.</p>

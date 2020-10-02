@@ -231,10 +231,9 @@ function Home() {
                                 <img className="card-img" src="https://images.pexels.com/photos/3609112/pexels-photo-3609112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
                                     <div
                                         className="card-img-overlay d-flex justify-content-center align-items-center flex-column">
-                                        <h3 className="card-title">Future of the Internet</h3>
-                                        <p className="card-text">Decentralized, secure, private. The PiperNet is on it's
-                                            way to revolutionize every smartphone, PC, and smart-fridge near you.</p>
-                                        <a className="btn btn-primary btn-raised" href="/interior">Join the Revolution!</a>
+                                        <h3 className="card-title">Future of the Interior</h3>
+                                        <p className="card-text">A very promising and very contempt service for interior designs.</p>
+                                        <a className="btn btn-primary btn-raised" href="/interior">Check Our Work!</a>
                                     </div>
                             </div>
                         </div>
