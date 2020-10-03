@@ -1,17 +1,59 @@
 import React from "react";
+import { Card, CardTitle, CardText, CardImg, CardImgOverlay } from 'reactstrap';
 
 function Interior() {
     return (
         <div>
             <section className="jumbotron">
                 <div className="container text-center">
-                    <h1 className="display-4">New Interior</h1>
+                    <h1 className="display-4">Interior Designer</h1>
                     <p className="lead text-muted">Secure, private. Cornerstones is on it's way to
                         revolutionize every home, mall, and city near you.</p>
-                    <a className="btn btn-primary btn-raised mt-2 mr-2" href="#">Home</a><a
+                    <a className="btn btn-primary btn-raised mt-2 mr-2" href="#">Call</a><a
                     className="btn btn-default mt-2" href="#">Read more</a>
                 </div>
             </section>
+            <div className="container">
+                <h3 className="display-5 mt-5">Our services Includes</h3>
+                <div className="row space phont">
+                    <div className="col-md-4 mb-4">
+                        <Card inverse>
+                            <CardImg width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIt80rKw1O1oAS-tHO57Zi1mq1DUvdNVQmBw&usqp=CAU" alt="Card image cap" />
+                            <CardImgOverlay style={{ color:"black" }}>
+                                <CardTitle>PVC Ceiling</CardTitle>
+                                <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                                <CardText>
+                                    <small className="text-muted">Last updated 3 mins ago</small>
+                                </CardText>
+                            </CardImgOverlay>
+                        </Card>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <Card inverse>
+                            <CardImg width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7mORUC2kjc6vs7H1MJXZUKqpX-GJfTzGgIg&usqp=CAU" alt="Card image cap" />
+                            <CardImgOverlay style={{ color:"black" }}>
+                                <CardTitle>Wall Paper</CardTitle>
+                                <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                                <CardText>
+                                    <small className="text-muted">Last updated 3 mins ago</small>
+                                </CardText>
+                            </CardImgOverlay>
+                        </Card>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <Card inverse>
+                            <CardImg width="100%" src="https://images.pexels.com/photos/131634/pexels-photo-131634.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap" />
+                            <CardImgOverlay style={{ color:"black" }}>
+                                <CardTitle>Artificial Grass</CardTitle>
+                                <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                                <CardText>
+                                    <small className="text-muted">Last updated 3 mins ago</small>
+                                </CardText>
+                            </CardImgOverlay>
+                        </Card>
+                    </div>
+                </div>
+            </div>
             <section className="py-5">
                 <div className="container text-center">
                     <h2 className="mb-5">Great Costumers that already use Cornerstones</h2>

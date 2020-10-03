@@ -30,26 +30,26 @@ function Header() {
                                 <NavLink className="nav-link" to='/aboutus'>About Us</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to='/propertise'>Property</NavLink>
+                                <NavLink className="nav-link" to='/interior'>Interior</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to='/interior'>Interior</NavLink>
+                                <NavLink className="nav-link" to='/architecture'>Architecture</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
-                                    Services
+                                    Projects
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        Architecture
+                                        Ongoing
                                     </DropdownItem>
                                     <DropdownItem>
-                                        Reset
+                                        Finished
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </Nav>
-                        <NavbarText> Call Us: 8105621284</NavbarText>
+                        <NavbarText>Call Us: 8269874598</NavbarText>
                     </Collapse>
                 </Navbar>
             </div>
