@@ -240,7 +240,7 @@ function Home() {
                     </section>
                     <section className="py-5">
                         <div className="container">
-                            <h2 className="mb-5 text-center">Some of our Interior features</h2>
+                            <h2 className="mb-5 text-center">Some of our Special features.</h2>
                             <div className="row">
                                 <div className="col-md-3 mb-4">
                                     <h5>Woodwork</h5>
@@ -253,7 +253,7 @@ function Home() {
                                     <a href="#" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
-                                    <h5></h5>
+                                    <h5>Presentable</h5>
                                     <p>Your online activity is only yours to know. Always.</p>
                                     <a href="#" role="button">Read more</a>
                                 </div>

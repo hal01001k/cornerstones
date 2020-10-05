@@ -9,7 +9,7 @@ function Interior() {
                     <h1 className="display-4">Interior Designer</h1>
                     <p className="lead text-muted">Secure, private. Cornerstones is on it's way to
                         revolutionize every home, mall, and city near you.</p>
-                    <a className="btn btn-primary btn-raised mt-2 mr-2" href="#">Call</a><a
+                    <a className="btn btn-primary btn-raised mt-2 mr-2" href="tel:8269874598">Call</a><a
                     className="btn btn-default mt-2" href="#">Read more</a>
                 </div>
             </section>
@@ -30,7 +30,7 @@ function Interior() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <Card inverse>
-                            <CardImg width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ7mORUC2kjc6vs7H1MJXZUKqpX-GJfTzGgIg&usqp=CAU" alt="Card image cap" />
+                            <CardImg width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMM_OI6DuHp8-yT3SkEzouwGRngtExpUZYA&usqp=CAU" alt="Card image cap" />
                             <CardImgOverlay style={{ color:"black" }}>
                                 <CardTitle>Wall Paper</CardTitle>
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
@@ -112,28 +112,6 @@ function Interior() {
 export default Interior;
 
 
-{/*<div>*/}
-{/*    <a className="carousel-control-prev justify-content-start" href="#carousel-form-03" role="button" data-slide="prev">*/}
-{/*        <img src="icons/chevron-left.svg" aria-hidden="true" alt=""/>*/}
-{/*        <span className="sr-only">Previous</span></a>*/}
-{/*    <a className="carousel-control-next justify-content-end" href="#carousel-form-03" role="button" data-slide="next">*/}
-{/*        <img src="icons/chevron-right.svg" aria-hidden="true" alt=""/>*/}
-{/*        <span className="sr-only">Next</span></a>*/}
-{/*</div>*/}
 
 
-{/*<div className="carousel-item">*/}
-{/*    <div>*/}
-{/*        <img className="img-fluid" src="undraw/home.svg" alt=""/>*/}
-{/*        <div className="row d-none d-md-block">*/}
-{/*            <img className="col-3 p-3" src="undraw/home.svg" alt=""/>*/}
-{/*            <img className="col-3 p-3" src="undraw/map.svg" alt=""/>*/}
-{/*            <img className="col-3 p-3" src="undraw/home.svg" alt=""/>*/}
-{/*            <img className="col-3 p-3" src="undraw/home.svg" alt=""/>*/}
-{/*        </div>*/}
-{/*        <h3 className="mt-5">Client: Gitscape</h3>*/}
-{/*        <p className="lead">We are constantly looking for new partners to migrate onto*/}
-{/*            the Piper Net. The future of the internet is here - venture towards it with*/}
-{/*            Pied Piper!</p>*/}
-{/*    </div>*/}
-{/*</div>*/}
+
