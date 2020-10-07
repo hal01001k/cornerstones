@@ -8,8 +8,8 @@ function Architecture ()
                     <h2 className="mb-5 text-center">Your Maps</h2>
                     <div className="card-deck">
                         <div className="card border-0">
-                            <a href="#"><img className="card-img-top mb-2"
-                                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0TeK7awTbEvKl23FcJsbe2zJAsCSjd7n8eQ&usqp=CAU" alt=""/></a>
+                            <a href="#">
+                                <img className="card-img-top mb-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0TeK7awTbEvKl23FcJsbe2zJAsCSjd7n8eQ&usqp=CAU" alt=""/></a>
                             <div className="card-body">
                                 <small className="text-muted">07 Nov 2018</small>
                                 <h5 className="card-title my-2"><a href="#">Why I'm the Best Programmer Ever</a></h5>
