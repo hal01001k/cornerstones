@@ -1,7 +1,7 @@
 import React from "react";
 import ComplexGrid from "./ComplexGrid";
 import Jumbotron from "reactstrap/lib/Jumbotron";
-function Propertise ()
+function Properties ()
 {
     return(
         <div>
@@ -13,4 +13,4 @@ function Propertise ()
 
 }
 
-export default Propertise;
+export default Properties;

@@ -41,10 +41,10 @@ function Header() {
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>
-                                        Ongoing
+                                        <NavLink className="nav-link"  style={{color:'black'}} to='/onproject'>Ongoing</NavLink>
                                     </DropdownItem>
-                                    <DropdownItem>
-                                        Finished
+                                    <DropdownItem >
+                                        <NavLink className="nav-link" style={{color:'black'}} to='/finproject'>Finished</NavLink>
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>

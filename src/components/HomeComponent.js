@@ -221,7 +221,7 @@ function Home() {
                                 <CardSubtitle>Card subtitle</CardSubtitle>
                                 <CardText>This is a wider card with supporting text below as a natural lead-in to
                                     additional content.</CardText>
-                                <Button color='primary' href="/propertise">Properties</Button>
+                                <Button color='primary' href="/properties">Properties</Button>
                             </CardBody>
                         </Card>
                     </CardDeck>
