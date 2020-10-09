@@ -105,6 +105,37 @@ function About() {
                     </div>
                 </section>
             </div>
+            <section className="py-5">
+                <div className="container text-center">
+                    <h2>Our plans</h2>
+                    <div className="row">
+                        <div className="col-md-4 my-4">
+                            <div className="border rounded p-4 h-100">
+                                <h3 className="mb-3 font-weight-normal">Architecture</h3>
+                                <p className="lead">Join our network, but build and manage everything yourself.</p>
+                                <p className="my-4">Well planned <small className="text-muted"> wiu</small></p>
+                                <button className="btn btn-lg btn-outline-primary" type="button">Contact Sales</button>
+                            </div>
+                        </div>
+                        <div className="col-md-4 my-4">
+                            <div className="border rounded p-4 h-100">
+                                <h3 className="mb-3 font-weight-normal">Interior</h3>
+                                <p className="lead">We build what you need, but you still need to manage your data.</p>
+                                <p className="my-4">$50 <small className="text-muted">Per user / monthly</small></p>
+                                <button className="btn btn-lg btn-outline-primary" type="button">Contact Sales</button>
+                            </div>
+                        </div>
+                        <div className="col-md-4 my-4">
+                            <div className="border rounded p-4 h-100">
+                                <h3 className="mb-3 font-weight-normal">Woodwork</h3>
+                                <p className="lead">We do everything for you, including managing your data.</p>
+                                <p className="my-4">$100 <small className="text-muted">Per user / monthly</small></p>
+                                <button className="btn btn-lg btn-outline-primary" type="button">Contact Sales</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div className="container">
                 <text style ={{ fontSize:30}}>Head Office</text>
                 <p>Always avialable contact us at any time. we are more then happy to help.</p>

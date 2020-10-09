@@ -42,7 +42,7 @@ function Home() {
                             <strong>The New Internet</strong>
                             <h5 className="display-5 my-5">We've built a decentralized internet where information is
                                 totally free</h5>
-                            <a className="btn btn-primary btn-raised mt-2" href="#">Read more</a>
+                            <a className="btn btn-primary btn-raised mt-2" href="tel:8269874598" >Call Us</a>
                         </div>
                     </section>
                 </div>
@@ -100,18 +100,8 @@ function Home() {
                                 </p>
                             </Box>
                         </div>
-                        <div className="d-block d-sm-none">
-                            <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps2}>
-                                <p style={styleObj1}>
-                                    <h1>Hello!</h1>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                </p>
-                            </Box>
-                        </div>
                     </div>
+                    <div className="d-none d-md-block">
                     <div className="col-12 col-md-4">
                         <video playsInline loop autoPlay muted width="350" height="400">
                             <source
@@ -119,9 +109,10 @@ function Home() {
                                 type="video/mp4"/>
                         </video>
                     </div>
+                    </div>
                 </div>
                 <div className="row">
-                    <div className="col-12 col-md-4" >
+                    <div className="col-12 col-md-4">
                         <video playsInline loop autoPlay muted width="350" height="400">
                             <source
                                 src="https://global-uploads.webflow.com/5bcb46130508ef456a7b2930/5d06154c6a9360b7a49538b6_drawkit-grape-pack-illustration-8-transcode.mp4"
@@ -158,17 +149,6 @@ function Home() {
                         <div className="d-none d-md-block">
                             <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps1}>
                                 <p style={styleObj}>
-                                    <h1>Hello!</h1>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
-                                </p>
-                            </Box>
-                        </div>
-                        <div className="d-block d-sm-none">
-                            <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps2}>
-                                <p style={styleObj1}>
                                     <h1>Hello!</h1>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -245,22 +225,22 @@ function Home() {
                                 <div className="col-md-3 mb-4">
                                     <h5>Woodwork</h5>
                                     <p>Your data is stored in many places at once. Awesome, right?</p>
-                                    <a href="#" role="button">Read more</a>
+                                    <a href="/interior" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
                                     <h5>Wallpapers</h5>
                                     <p>Nobody will be able to use your data without your consent.</p>
-                                    <a href="#" role="button">Read more</a>
+                                    <a href="/interior" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
                                     <h5>Presentable</h5>
                                     <p>Your online activity is only yours to know. Always.</p>
-                                    <a href="#" role="button">Read more</a>
+                                    <a href="/interior" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
                                     <h5>Speed</h5>
                                     <p>Unimaginable transfer speed thanks to middle-out compression.</p>
-                                    <a href="#" role="button">Read more</a>
+                                    <a href="/interior" role="button">Read more</a>
                                 </div>
                             </div>
                         </div>

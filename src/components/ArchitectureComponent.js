@@ -5,33 +5,27 @@ function Architecture ()
         <div>
             <section className="py-5">
                 <div className="container space">
-                    <h2 className="mb-5 text-center">Your Maps</h2>
+                    <h2 className="mb-5 text-center">Map Includes</h2>
                     <div className="card-deck">
                         <div className="card border-0">
-                            <a href="#">
-                                <img className="card-img-top mb-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0TeK7awTbEvKl23FcJsbe2zJAsCSjd7n8eQ&usqp=CAU" alt=""/></a>
+                            <img className="card-img-top mb-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0TeK7awTbEvKl23FcJsbe2zJAsCSjd7n8eQ&usqp=CAU" alt=""/>
                             <div className="card-body">
-                                <small className="text-muted">07 Nov 2018</small>
-                                <h5 className="card-title my-2"><a href="#">Why I'm the Best Programmer Ever</a></h5>
-                                <a className="btn btn-primary my-2 px-4" href="#">Read more</a>
+                                <small className="text-muted">Electrical</small>
+                                <h5 className="card-title my-2">Every Wiring path</h5>
                             </div>
                         </div>
                         <div className="card border-0">
-                            <a href="#"><img className="card-img-top mb-2"
-                                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFogmJwqsLDB9mQU4ReSHm-9U5EmlGP54Rfg&usqp=CAU" alt=""/></a>
+                            <img className="card-img-top mb-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFogmJwqsLDB9mQU4ReSHm-9U5EmlGP54Rfg&usqp=CAU" alt=""/>
                             <div className="card-body">
-                                <small className="text-muted">07 Nov 2018</small>
-                                <h5 className="card-title my-2"><a href="#">Secrets of Decentralization</a></h5>
-                                <a className="btn btn-primary my-2 px-4" href="#">Read more</a>
+                                <small className="text-muted">Plumbing</small>
+                                <h5 className="card-title my-2">Every Plumbing Plan</h5>
                             </div>
                         </div>
                         <div className="card border-0">
-                            <a href="#"><img className="card-img-top mb-2"
-                                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOFmQ9DSko9Qy6G5P1Th2BkDXaIsb6ZyxkAA&usqp=CAU" alt=""/></a>
+                            <img className="card-img-top mb-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSOFmQ9DSko9Qy6G5P1Th2BkDXaIsb6ZyxkAA&usqp=CAU" alt=""/>
                             <div className="card-body">
-                                <small className="text-muted">07 Nov 2018</small>
-                                <h5 className="card-title my-2"><a href="#">Why Strong Tea Isn't Good</a></h5>
-                                <a className="btn btn-primary my-2 px-4" href="#">Read more</a>
+                                <small className="text-muted">3D and 2D</small>
+                                <h5 className="card-title my-2">Better Visualization</h5>
                             </div>
                         </div>
                     </div>
@@ -44,9 +38,7 @@ function Architecture ()
                             <h2>Architectural Plan </h2>
                             <p>Includes</p>
                             <ul className="list-inline d-flex flex-column flex-sm-row align-items-center nav nav-pills mt-5 mb-4">
-                                <li className="nav-item d-flex nav-link active">Active Tab</li>
-                                <li className="nav-item d-flex nav-link active">Active One</li>
-                                <li className="nav-item d-flex nav-link active">Active Two</li>
+                                <li className="nav-item d-flex nav-link active">Vastu Oriented</li>
                             </ul>
                             <p>Our plans include every niche details and every important factor needed for the help with
                             new and important features added and every details very precisely added as per your demands.</p>

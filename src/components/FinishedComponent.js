@@ -4,7 +4,7 @@ function Finproject()
     return(
         <div><section className="py-5">
             <div className="container text-center">
-                <h1 className="display-4 my-3">Our Ongoing projects and their details are present here.</h1>
+                <h1 className="display-4 my-3">Our Finished projects and their details are present here.</h1>
             </div>
         </section>
             <section className="py-5">
@@ -30,15 +30,15 @@ function Finproject()
                             </table>
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0">
-                            <img className="img-fluid" src="placeholder/pictures/bg_4-3.svg?primary=007bff" alt=""/>
+                            <img className="img-fluid" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=867&q=80" alt=""/>
                             <div className="d-flex justify-content-between w-100 mt-4">
                                 <div className="p-0">
-                                    <img className="w-100" src="placeholder/pictures/bg_4-3.svg?primary=007bff" alt=""/>
+                                    <img className="w-100" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=867&q=80" alt=""/>
                                 </div>
                                 <div className="p-0 mx-4">
-                                    <img className="w-100" src="placeholder/pictures/bg_4-3.svg?primary=007bff" alt=""/>
+                                    <img className="w-100" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=867&q=80" alt=""/>
                                 </div>
-                                <div className="p-0"><img className="w-100" src="placeholder/pictures/bg_4-3.svg?primary=007bff" alt=""/>
+                                <div className="p-0"><img className="w-100" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=867&q=80" alt=""/>
                                 </div>
                             </div>
                         </div>

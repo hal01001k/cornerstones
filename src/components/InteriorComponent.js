@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardTitle, CardText, CardImg, CardImgOverlay,
+import { Card, CardTitle, CardText,
          CardBody, CardSubtitle} from 'reactstrap';
 
 function Interior() {
@@ -20,7 +20,19 @@ function Interior() {
                     <div className="col-md-4 mb-4">
                         <Card>
                             <CardBody>
-                                <CardTitle>Card title</CardTitle>
+                                <CardTitle>PVC Ceiling</CardTitle>
+                                <CardSubtitle>Card subtitle</CardSubtitle>
+                            </CardBody>
+                            <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMM_OI6DuHp8-yT3SkEzouwGRngtExpUZYA&usqp=CAU" alt="Card cap"/>
+                            <CardBody>
+                                <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                            </CardBody>
+                        </Card>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <Card>
+                            <CardBody>
+                                <CardTitle>Wallpaper</CardTitle>
                                 <CardSubtitle>Card subtitle</CardSubtitle>
                             </CardBody>
                             <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMM_OI6DuHp8-yT3SkEzouwGRngtExpUZYA&usqp=CAU" alt="Card image cap" />
@@ -32,19 +44,7 @@ function Interior() {
                     <div className="col-md-4 mb-4">
                         <Card>
                             <CardBody>
-                                <CardTitle>Card title</CardTitle>
-                                <CardSubtitle>Card subtitle</CardSubtitle>
-                            </CardBody>
-                            <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMM_OI6DuHp8-yT3SkEzouwGRngtExpUZYA&usqp=CAU" alt="Card image cap" />
-                            <CardBody>
-                                <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                            </CardBody>
-                        </Card>
-                    </div>
-                    <div className="col-md-4 mb-4">
-                        <Card>
-                            <CardBody>
-                                <CardTitle>Card title</CardTitle>
+                                <CardTitle>Artificial Grass</CardTitle>
                                 <CardSubtitle>Card subtitle</CardSubtitle>
                             </CardBody>
                             <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMM_OI6DuHp8-yT3SkEzouwGRngtExpUZYA&usqp=CAU" alt="Card image cap" />
