@@ -80,8 +80,7 @@ function Home() {
                                     <h1>Talk to Us</h1>
                                     Talk directly to our professional and understand your need and requirements.
                                     We have specially assigned professional to listen and satisfy your needs.
-                                    Our Customer care service is designed in to cater the needs of our customer and
-                                    help them through the process.
+                                    Our Customer care service is designed in to cater the needs of our customers.
                                 </p>
                             </Box>
                         </div>
@@ -124,7 +123,7 @@ function Home() {
                             <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps1}>
                                 <p style={styleObj}>
                                     <h1>On Site Inspection</h1>
-                                   We provide a healthy attention to your project/construction for a proper execution.
+                                    We provide a healthy attention to your project/construction for a proper execution.
                                     Our team is very obedient and earnest with customer, they always provide the care that
                                     our customer deserves. We have very good track record of our service.
                                 </p>
