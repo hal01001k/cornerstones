@@ -66,22 +66,22 @@ function Home() {
                         <div className="d-none d-md-block">
                             <Box display="flex" borderRadius={16} {...defaultProps1}>
                                 <p style={styleObj}>
-                                    <h1>Hello!</h1>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    <h1>Direct Connection</h1>
+                                    Talk directly to our professional and understand your need and requirements.
+                                    We have specially assigned professional to listen and satisfy your needs.
+                                    Our Customer care service is designed in to cater the needs of our customer and
+                                    help them through the process.
                                 </p>
                             </Box>
                         </div>
                         <div className="d-block d-sm-none">
                             <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps2}>
                                 <p style={styleObj1}>
-                                    <h1>Hello!</h1>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    <h1>Talk to Us</h1>
+                                    Talk directly to our professional and understand your need and requirements.
+                                    We have specially assigned professional to listen and satisfy your needs.
+                                    Our Customer care service is designed in to cater the needs of our customer and
+                                    help them through the process.
                                 </p>
                             </Box>
                         </div>
@@ -92,11 +92,11 @@ function Home() {
                         <div className="d-none d-md-block">
                             <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps1}>
                                 <p style={styleObj}>
-                                    <h1>Hello!</h1>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    <h1>Project Consulting</h1>
+                                    We consult about your project and help you find what is best for you and your needs.
+                                    Our ultimate goal is customer satisfaction and we always strive to achieve it.
+                                    Your project will be evaluated with detailed analysis for a perfect and optimized solution.
+
                                 </p>
                             </Box>
                         </div>
@@ -123,22 +123,19 @@ function Home() {
                         <div className="d-none d-md-block">
                             <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps1}>
                                 <p style={styleObj}>
-                                    <h1>Hello!</h1>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    <h1>On Site Inspection</h1>
+                                   We provide a healthy attention to your project/construction for a proper execution.
+                                    Our team is very obedient and earnest with customer, they always provide the care that
+                                    our customer deserves. We have very good track record of our service.
                                 </p>
                             </Box>
                         </div>
                         <div className="d-block d-sm-none">
                             <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps2}>
                                 <p style={styleObj1}>
-                                    <h1>Hello!</h1>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    <h1>Always Available</h1>
+                                    Our team is just a call away. we will explain your details and needs very efficiently.
+                                    This is the backbone of our company and we respect it very much. Call and you will find us 24X7.
                                 </p>
                             </Box>
                         </div>
@@ -149,11 +146,10 @@ function Home() {
                         <div className="d-none d-md-block">
                             <Box display="flex" justifyContent="right" borderRadius={16} {...defaultProps1}>
                                 <p style={styleObj}>
-                                    <h1>Hello!</h1>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type
-                                    specimen book.
+                                    <h1>Always Available</h1>
+                                    Our team is just a call away. we will explain your details and needs very efficiently.
+                                    This is the backbone of our company and we respect it very much. We provide extra care
+                                    answer our customer and satisfy their needs. Call and you will find us 24X7.
                                 </p>
                             </Box>
                         </div>

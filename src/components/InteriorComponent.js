@@ -56,6 +56,37 @@ function Interior() {
                 </div>
             </div>
             <section className="py-5">
+                <div className="container">
+                    <div className="row text-center">
+                        <div className="col-md-6 col-lg-4 p-3">
+                            <h5>Security</h5>
+                            <p>Your data is virtually unhackable compared to traditional net.</p>
+                        </div>
+                        <div className="col-md-6 col-lg-4 p-3">
+                            <h5>Privacy</h5>
+                            <p>Nobody is tracking you when your activity when you use PiperNet.</p>
+                        </div>
+                        <div className="col-md-6 col-lg-4 p-3">
+                            <h5>Speed</h5>
+                            <p>Previously unimaginable transfer speed thanks to middle-out compression.</p>
+                        </div>
+                        <div className="col-md-6 col-lg-4 p-3">
+                            <h5>Decentralization</h5>
+                            <p>Decentralized design allows data to flow freely and efficiently.</p>
+                        </div>
+                        <div className="col-md-6 col-lg-4 p-3">
+                            <h5>Infrastructureless</h5>
+                            <p>Gather computing power from idle machines in your network to act as a decentralized
+                                server.</p>
+                        </div>
+                        <div className="col-md-6 col-lg-4 p-3">
+                            <h5>Storage</h5>
+                            <p>Store your data safely, and access it faster than ever.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="py-5">
                 <div className="container text-center">
                     <h2 className="mb-5">Great Costumers that already use Cornerstones</h2>
                     <div className="carousel slide">
