@@ -6,7 +6,6 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    // NavLink,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
@@ -49,7 +48,7 @@ function Header() {
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                         </Nav>
-                        <NavbarText>Call Us: 8269874598</NavbarText>
+                        <NavbarText><a href="tel:8269874598">Call Us :</a> 8269874598</NavbarText>
                     </Collapse>
                 </Navbar>
             </div>

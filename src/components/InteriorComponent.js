@@ -5,13 +5,13 @@ import { Card, CardTitle, CardText,
 function Interior() {
     return (
         <div>
+            <div className="container d-block d-sm-none"><h1>Hi!</h1></div>
             <section className="jumbotron">
                 <div className="container text-center">
                     <h1 className="display-4">Interior Designer</h1>
-                    <p className="lead text-muted">Secure, private. Cornerstones is on it's way to
+                    <p className="lead text-muted">Better, Beautiful. Cornerstones is on it's way to
                         revolutionize every home, mall, and city near you.</p>
-                    <a className="btn btn-primary btn-raised mt-2 mr-2" href="tel:8269874598">Call</a><a
-                    className="btn btn-default mt-2" href="#">Read more</a>
+                    <a className="btn btn-primary btn-raised mt-2 mr-2" href="tel:8269874598">Call for Interior Designer</a>
                 </div>
             </section>
             <div className="container">
@@ -21,11 +21,11 @@ function Interior() {
                         <Card>
                             <CardBody>
                                 <CardTitle>PVC Ceiling</CardTitle>
-                                <CardSubtitle>Card subtitle</CardSubtitle>
+                                <CardSubtitle>A Grade</CardSubtitle>
                             </CardBody>
-                            <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMM_OI6DuHp8-yT3SkEzouwGRngtExpUZYA&usqp=CAU" alt="Card cap"/>
+                            <img width="100%" src="https://images.pexels.com/photos/280232/pexels-photo-280232.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card cap"/>
                             <CardBody>
-                                <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                                <CardText>You have a variety of choices to choose from our very pleasing design.</CardText>
                             </CardBody>
                         </Card>
                     </div>
@@ -33,11 +33,11 @@ function Interior() {
                         <Card>
                             <CardBody>
                                 <CardTitle>Wallpaper</CardTitle>
-                                <CardSubtitle>Card subtitle</CardSubtitle>
+                                <CardSubtitle>Pleasing Designs</CardSubtitle>
                             </CardBody>
-                            <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMM_OI6DuHp8-yT3SkEzouwGRngtExpUZYA&usqp=CAU" alt="Card image cap" />
+                            <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMM_OI6DuHp8-yT3SkEzouwGRngtExpUZYA&usqp=CAU" alt="0" />
                             <CardBody>
-                                <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                                <CardText>A fast and very pleasing service to provide better design for Wallpaper.</CardText>
                             </CardBody>
                         </Card>
                     </div>
@@ -45,11 +45,11 @@ function Interior() {
                         <Card>
                             <CardBody>
                                 <CardTitle>Artificial Grass</CardTitle>
-                                <CardSubtitle>Card subtitle</CardSubtitle>
+                                <CardSubtitle>Its all Green</CardSubtitle>
                             </CardBody>
-                            <img width="100%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMM_OI6DuHp8-yT3SkEzouwGRngtExpUZYA&usqp=CAU" alt="Card image cap" />
+                            <img width="100%" src="https://images.pexels.com/photos/413195/pexels-photo-413195.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="1"/>
                             <CardBody>
-                                <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                                <CardText>Extra service that will help you with your interior.</CardText>
                             </CardBody>
                         </Card>
                     </div>
@@ -59,29 +59,28 @@ function Interior() {
                 <div className="container">
                     <div className="row text-center">
                         <div className="col-md-6 col-lg-4 p-3">
-                            <h5>Security</h5>
-                            <p>Your data is virtually unhackable compared to traditional net.</p>
+                            <h5>2D</h5>
+                            <p>we provide 2D models of design.</p>
                         </div>
                         <div className="col-md-6 col-lg-4 p-3">
-                            <h5>Privacy</h5>
-                            <p>Nobody is tracking you when your activity when you use PiperNet.</p>
+                            <h5>3D</h5>
+                            <p>We provide a 3D model for our design for customers.</p>
                         </div>
                         <div className="col-md-6 col-lg-4 p-3">
                             <h5>Speed</h5>
-                            <p>Previously unimaginable transfer speed thanks to middle-out compression.</p>
+                            <p>Finish your work at very high pace</p>
                         </div>
                         <div className="col-md-6 col-lg-4 p-3">
-                            <h5>Decentralization</h5>
-                            <p>Decentralized design allows data to flow freely and efficiently.</p>
+                            <h5>Woodwork</h5>
+                            <p>Provide you with interior design materials.</p>
                         </div>
                         <div className="col-md-6 col-lg-4 p-3">
-                            <h5>Infrastructureless</h5>
-                            <p>Gather computing power from idle machines in your network to act as a decentralized
-                                server.</p>
+                            <h5>Deadline Prediction</h5>
+                            <p>We provide a deadline and finish your work within that limit.</p>
                         </div>
                         <div className="col-md-6 col-lg-4 p-3">
-                            <h5>Storage</h5>
-                            <p>Store your data safely, and access it faster than ever.</p>
+                            <h5>Customer care</h5>
+                            <p>We are always available.</p>
                         </div>
                     </div>
                 </div>

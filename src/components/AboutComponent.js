@@ -36,7 +36,6 @@ function About() {
                         <img className="img-fluid" src="undraw/team.svg" alt="team"/>
                     </div>
                 </div>
-
                 <hr/>
             </div>
             <div style={{
@@ -54,29 +53,26 @@ function About() {
                         <div className="col-md-4 mb-4">
                             <img className="mb-3 rounded-circle"
                                  src="undraw/design_components.svg" height="120" alt=""/>
-                            <h5 className="mb-0">Optimized</h5>
-                            <small>Data</small>
-                            <p className="my-4 text-muted"> When I'm not obsessively stressing about the fate of
-                                Pied Piper, I sometimes give lectures to school kids. Spend most of my time
-                                coding.</p>
+                            <h5 className="mb-0">Efficient</h5>
+                            <small>Time Saver</small>
+                            <p className="my-4 text-muted">Our team is very efficient and always manages to save time of
+                            our customers. We always plan ahead.</p>
                         </div>
                         <div className="col-md-4 mb-4">
                             <img className="mb-3 rounded-circle"
                                  src="undraw/personal_finance.svg" height="120" alt=""/>
                             <h5 className="mb-0">Money Saver</h5>
                             <small>keeps your pocket full</small>
-                            <p className="my-4 text-muted">I am the absolute best programmer at Pied Piper
-                                (especially better than Gilfoyle). My genius shines and guides the Pied Piper
-                                team.</p>
+                            <p className="my-4 text-muted">Our approaches are always customer first and so we always try
+                            to keep project within budget to help our customers.</p>
                         </div>
                         <div className="col-md-4 mb-4">
                             <img className="mb-3 rounded-circle"
                                  src="undraw/respond.svg" height="120" alt=""/>
                             <h5 className="mb-0">Well Explained</h5>
                             <small>System's Architect</small>
-                            <p className="my-4 text-muted">I work on Pied Piper only for the advanced
-                                technology. I don't really like most people I work with, but they need me to put
-                                out their fires, so&nbsp;I&nbsp;stay.</p>
+                            <p className="my-4 text-muted">We are experienced enough with our projects and we are very
+                            professional with our work.</p>
                         </div>
                     </div>
                 </div>
@@ -156,8 +152,8 @@ function About() {
                             <CardBody>
                                 <CardTitle>Address</CardTitle>
                                 <CardSubtitle>Meet us in Person</CardSubtitle>
-                                <CardText>Address of the main office with every detail.</CardText>
-                                <Button color="primary">Call</Button>
+                                <CardText>Hanuman Path, Sironj PIN: 464228</CardText>
+                                <Button color="primary" href="tel:8269874598">Call Us</Button>
                             </CardBody>
                         </Card>
                     </div>

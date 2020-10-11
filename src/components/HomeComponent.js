@@ -39,16 +39,16 @@ function Home() {
                 <div className="container d-block d-sm-none">
                     <section className="py-5">
                         <div className="container text-center">
-                            <strong>The New Internet</strong>
-                            <h5 className="display-5 my-5">We've built a decentralized internet where information is
-                                totally free</h5>
+                            <strong>Build your Dreams.</strong>
+                            <h5 className="display-5 my-5">Contact us and we will help you build you dream home.
+                            we are always available.</h5>
                             <a className="btn btn-primary btn-raised mt-2" href="tel:8269874598" >Call Us</a>
                         </div>
                     </section>
                 </div>
             </div>
             <div className="container phont" style={{ paddingTop:'50px' }}>
-              <h1>How it's done?</h1>
+              <h1>How we work??</h1>
             </div>
             <div className="container" style={{paddingTop:'50px'}}>
                 <HorizontalLabelPositionBelowStepper/>
@@ -166,8 +166,8 @@ function Home() {
             <div className="container">
                 <div className="row">
                     <p>
-                        <h2>Feature</h2>
-                        This section includes list of all features
+                        <h2>Our Feature</h2>
+                        Extra services that our company provide.
                     </p>
                 </div>
                 <div >
@@ -176,27 +176,24 @@ function Home() {
                             <CardBody>
                                 <CardTitle>Interior</CardTitle>
                                 <CardSubtitle>Choose from lots</CardSubtitle>
-                                <CardText>This is a wider card with supporting text below as a natural lead-in to
-                                    additional content. This content is a little bit longer.</CardText>
+                                <CardText>We provide a wide range of services for interior design. visit our page to check yourself. </CardText>
                                 <Button color='primary'>Interior</Button>
                             </CardBody>
                         </Card>
                         <Card>
                             <CardBody>
                                 <CardTitle>Architecture</CardTitle>
-                                <CardSubtitle>Card subtitle</CardSubtitle>
-                                <CardText>This card has supporting text below as a natural lead-in to additional
-                                    content.</CardText>
+                                <CardSubtitle>Wide range</CardSubtitle>
+                                <CardText>We have a strong and reliable team to provide you our design. Do check this section.</CardText>
                                 <Button color='primary' >Architecture</Button>
                             </CardBody>
                         </Card>
                         <Card>
                             <CardBody>
                                 <CardTitle>Property</CardTitle>
-                                <CardSubtitle>Card subtitle</CardSubtitle>
-                                <CardText>This is a wider card with supporting text below as a natural lead-in to
-                                    additional content.</CardText>
-                                <Button color='primary' href="/properties">Properties</Button>
+                                <CardSubtitle>Near by</CardSubtitle>
+                                <CardText>Nearby property that you can buy. You will be notified as soon as new property is available.</CardText>
+                                <Button color='primary' href="tel:8269874598">Properties</Button>
                             </CardBody>
                         </Card>
                     </CardDeck>
@@ -219,22 +216,22 @@ function Home() {
                             <div className="row">
                                 <div className="col-md-3 mb-4">
                                     <h5>Woodwork</h5>
-                                    <p>Your data is stored in many places at once. Awesome, right?</p>
+                                    <p>A small extra service included in our package.</p>
                                     <a href="/interior" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
                                     <h5>Wallpapers</h5>
-                                    <p>Nobody will be able to use your data without your consent.</p>
+                                    <p>Decide from our previous works.</p>
                                     <a href="/interior" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
                                     <h5>Presentable</h5>
-                                    <p>Your online activity is only yours to know. Always.</p>
+                                    <p>We emphasise on aesthetics as well.</p>
                                     <a href="/interior" role="button">Read more</a>
                                 </div>
                                 <div className="col-md-3 mb-4">
                                     <h5>Speed</h5>
-                                    <p>Unimaginable transfer speed thanks to middle-out compression.</p>
+                                    <p>We are efficient, fast and reliable.</p>
                                     <a href="/interior" role="button">Read more</a>
                                 </div>
                             </div>
