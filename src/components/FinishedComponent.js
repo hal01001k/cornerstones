@@ -19,12 +19,12 @@ function Finproject()
                             <table className="table mt-5 mb-4 responsive">
                                 <tbody>
                                 <tr>
-                                    <td>Item one</td>
-                                    <td className="text-right">First value</td>
+                                    <td>3D</td>
+                                    <td className="text-right">Present</td>
                                 </tr>
                                 <tr>
-                                    <td>Item two</td>
-                                    <td className="text-right">Second value</td>
+                                    <td>Side Elevation</td>
+                                    <td className="text-right">Present</td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -47,7 +47,7 @@ function Finproject()
             </section>
             <section className="py-5">
                 <div className="container text-center">
-                    <h2 className="mb-5">Gallery</h2>
+                    <h2 className="mb-5">Projects for Reference</h2>
                     <div className="row">
                         <div className="col-md-4 mb-4">
                             <img className="img-fluid" src="pics/14.png" alt="1"/>

@@ -15,7 +15,7 @@ import {
  import { NavLink } from "react-router-dom";
 function Header() {
 
-    const Exa = (props) => {
+    const Exa = () => {
         const [isOpen, setIsOpen] = useState(false);
         const toggle = () => setIsOpen(!isOpen);
         return (
